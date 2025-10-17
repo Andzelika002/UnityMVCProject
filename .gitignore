@@ -30,6 +30,7 @@ BuildCache/
 .vscode/
 .idea/
 .vs/
+/.vsconfig
 *.csproj
 *.unityproj
 *.sln
@@ -126,5 +127,5 @@ Packages/packages-lock.json.backup
 [Aa]ssets/ShaderCache/
 [Aa]ssets/ShaderCache.db
 
-# Uncomment this line if you wish to ignore the asset store tools plugin
-# [Aa]ssets/AssetStoreTools*
+# Optional code coverage settings
+Packages/com.unity.testtools.codecoverage/
