@@ -39,3 +39,18 @@ This template provides a well-organized project structure, example scripts to he
    `git lfs pull`
    
 9. Now make your changes, then commit and push.
+
+## ✅ Recommended approach:
+
+`# Windows users`
+
+`git config --global core.autocrlf true`
+
+`# macOS/Linux users`
+
+`git config --global core.autocrlf input`
+
+That combo:
+* Stores LF in repo (always)
+* Gives CRLF to Windows devs on checkout (so scripts still run fine)
+* Converts back to LF on commit
